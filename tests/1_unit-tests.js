@@ -24,7 +24,7 @@ suite('Unit Tests', function(){
     test('correctly return an error on a double-fraction', function () {
         assert.isNull(convertHandler.getNum('3/3/3'));
     })
-    test(' correctly default to a numerical input of 1 when no numerical input is provided', function () {
+    test('correctly default to a numerical input of 1 when no numerical input is provided', function () {
         assert.equal(convertHandler.getNum(''), 1);
     })
     test('correctly read each valid input unit', function () {
